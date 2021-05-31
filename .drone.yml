@@ -1,0 +1,30 @@
+kind: pipeline
+type: kubernetes
+name: hugoweb
+
+steps:
+  - name: submodules
+    image: alpine/git
+    commands:
+      - git submodule update --init --recursive
+
+  - name: hugo
+    image: plugins/hugo
+    settings:
+      validate: true
+      # hugo_version: 0.83.1
+
+  - name: deploy
+    image: drillster/drone-rsync
+    settings:
+      hosts:
+        - "10.0.100.5"
+      target: /volume
+      source: public/*
+      user: snowball77
+      recursive: true
+      port: "22"
+      args: "-v"
+      secrets: [rsync_key]
+      key:
+        from_secret: rsync_key
