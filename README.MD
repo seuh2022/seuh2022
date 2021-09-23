@@ -1,6 +1,6 @@
 # About the SEUH 2022 Website
 
-
+open http://localhost:1313 ; hugo -D -p 1313 server
 
 ## Theme
 

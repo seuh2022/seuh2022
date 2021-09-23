@@ -1,0 +1,12 @@
+<svg width="54px" height="54px" viewBox="0 0 54 54"  xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .heavy { font: 32px serif; fill: darkblue }
+    </style>
+    <rect x="1" y="1" width="52" height="52" class ="box"
+          rx="2" ry="2"
+          stroke="darkblue" fill="none" stroke-width="1"/>
+    <text x="6" y="26" class="heavy">S</text>
+    <text x="29" y="26" class="heavy">E</text>
+    <text x="4" y="50" class="heavy">U</text>
+    <text x="28" y="50" class="heavy">H</text>
+</svg>
