@@ -1,0 +1,3 @@
+[submodule "themes/hugo-hero-theme"]
+	path = themes/hugo-hero-theme
+	url = git@github.com:seuh2022/hugo-hero-theme.git
