@@ -1,4 +1,4 @@
-baseURL = "www.seuh.org"
+baseURL = "www.seuh.org/seuh2022"
 languageCode = "de-de"
 title = "SEUH 2022"
 theme = "hugo-hero-theme"

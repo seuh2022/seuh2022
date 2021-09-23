@@ -1,6 +1,6 @@
 # About the SEUH 2022 Website
 
-open http://localhost:1313 ; hugo -D -p 1313 server
+ open http://localhost:1313/seuh2022 ; hugo -D -p 1313 --verbose server
 
 ## Theme
 
@@ -19,3 +19,6 @@ reading this article:
 | - Geschichte        | - Tagungsband | - Registration | - local Orga    |
 |                     |               |                |                 |
 |                     |               |                |                 |
+
+
+Photo by <a href="https://unsplash.com/@pieronigro?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Piero Nigro</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
