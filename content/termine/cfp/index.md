@@ -1,12 +1,14 @@
 ---
 title: "Call for Papers"
 date: 2021-09-23
-draft: true
+draft: false
 featured: true
-weight: 1
+weight: 2
 layout: 'cfp'
 heroHeading: 'Call For Papers'
-heroSubHeading: 'Einreichungsfrist für Beiträge: 15.Oktober 2021'
+heroSubHeading: 'Nachhaltigkeit und Ethik
+in der Software Engineering Ausbildung und
+Lehren und Lernen nach der Pandemie'
 heroBackground: 'images/htw.png'
 ---
 
