@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="217px" height="32px" viewBox="0 0 217 29" version="1.1" xmlns="http://www.w3.org/2000/svg" >
+<svg width="250px" height="44px"  version="1.1" xmlns="http://www.w3.org/2000/svg" >
     <title>logo-seuh</title>
     <defs></defs>
 
     <style>
-        .heavy { font: 36px serif ; fill: darkblue }
+        .heavy { font: 48px serif ; fill: #1c3ed3 }
     </style>
-    <text x="6" y="26" class="heavy">SEUH 2022</text>
+    <text x="6" y="36" class="heavy">SEUH 2022</text>
 
 </svg>

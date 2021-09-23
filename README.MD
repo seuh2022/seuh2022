@@ -11,3 +11,11 @@ The SEUH 2022 Website is based on the
 Based on a fork in [seuh2022/hugo-hero-theme](https://github.com/seuh2022/hugo-hero-theme), after
 reading this article:
 [Using git submodule for Hugo themes - Don't Panic](https://www.andrewhoog.com/post/git-submodule-for-hugo-themes/)
+
+
+| SEUH                | Programm      | Termine        | Kontakt         |
+|:--------------------|:--------------|:---------------|:----------------|
+| - About + Sponsoren | - Programm    | - CFP          | - Maillingliste |
+| - Geschichte        | - Tagungsband | - Registration | - local Orga    |
+|                     |               |                |                 |
+|                     |               |                |                 |
