@@ -1,29 +1,37 @@
 {{ define "header_css" }}{{ end }}
-{{ define "body_classes" }}page-services-single{{ end }}
+{{ define "body_classes" }}page-pages-aboutlayout{{ end }}
 {{ define "header_classes" }}{{ end }}
+
 {{ define "main" }}
 {{ partial "hero-image-setheight.html" (dict "background" .Params.heroBackground "heading" .Params.heroHeading "subheading" .Params.heroSubHeading "section" .Section "content" .)}}
-<div class="container pt-4 pt-md-10 pb-4 pb-md-10">
-  <div class="row justify-content-start">
-    <div class="col-12 col-md-8">
-      <div class="service service-single">
-        <div class="content">{{.Content}}</div>
+
+{{ $headless := .Site.GetPage "/termine/cfp" }}
+{{ $subpages := $headless.Resources.ByType "page" }}
+{{ $subpages := sort $subpages ".Params.weight" }}
+
+<div class="strip bg-cover bg-position-top bg-overlay" style="background-image: url('{{ .Params.background | relURL }}');">
+  <div class="container pt-17 pb-17">
+{{ range $subpages }}
+
+    <div class="row">
+      <div class="col-12 col-md-4 ">
+        <h2 class="text-primary text-capitalize">{{ .Title }}</h2>
+        {{ if .Params.button }}
+          <a class="button" href="{{ .Params.buttonLink | relURL }}">{{ .Params.button }}</a>
+        {{ end }}
+      </div>
+      <div class="col-12 col-md-8 ">
+        {{ .Content }}
+        {{ if .Params.button }}
+          <a class="button" href="{{ .Params.buttonLink | relURL }}">{{ .Params.button }}</a>
+        {{ end }}
       </div>
     </div>
-  </div>
-</div>
-{{ partial "cfp.html" .}}
+
+      <div class="row"></div>
+
 {{ end }}
+</div>
+</div>
 
-
-
-{{ define "footer_js" }}
-{{ $library := resources.Get "js/libs/library.js" }}
-{{ $services := resources.Get "js/pages/services.js" }}
-{{ $servicesJS := slice $library $services |resources.Concat "js/services.js" }}
-{{ if .Site.IsServer }}
-  <script type="text/javascript" src="{{ $servicesJS.RelPermalink }}"></script>
-  {{ else }}
-  <script type="text/javascript" src="{{ ($servicesJS | minify | fingerprint).RelPermalink }}"></script>
-  {{ end }}
 {{ end }}

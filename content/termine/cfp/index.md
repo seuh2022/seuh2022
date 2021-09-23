@@ -6,7 +6,7 @@ featured: true
 weight: 1
 layout: 'cfp'
 heroHeading: 'Call For Papers'
-heroSubHeading: 'heroSubheading'
+heroSubHeading: 'Einreichungsfrist für Beiträge: 15.Oktober 2021'
 heroBackground: 'images/htw.png'
 ---
 
