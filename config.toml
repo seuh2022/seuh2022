@@ -1,7 +1,6 @@
-baseURL = "www.example.com"
-languageCode = "en-us"
-title = "Hugo Hero Theme"
-# themesDir = "../.."
+baseURL = "www.seuh.org"
+languageCode = "de-de"
+title = "SEUH 2022"
 theme = "hugo-hero-theme"
 
 [module]
@@ -22,6 +21,31 @@ theme = "hugo-hero-theme"
     meta_twitter_card = "summary"
     meta_twitter_site = "@zerostaticio"
     meta_twitter_creator = "@zerostaticio"
+
+[[menu.main]]
+	name = "SEUH"
+	url = "/seuh/"
+    weight = 1
+
+[[menu.main]]
+    name = "Programm"
+    url = "/programm/"
+    weight = 2
+
+[[menu.main]]
+    name = "Termine"
+    url = "/termine/"
+    weight = 3
+
+[[menu.main]]
+    name = "Kontakt"
+    url = "/kontakt/"
+    weight = 4
+[[menu.main]]
+    name = "Sponsoren"
+    url = "/history/"
+    weight = 5
+
 
 [[menu.main]]
 	name = "Services"
@@ -48,6 +72,10 @@ theme = "hugo-hero-theme"
     name = "Contact"
     url = "/contact/"
     weight = 4
+
+
+
+
 
 [permalinks]
   post = "/:year/:month/:day/:slug/"
