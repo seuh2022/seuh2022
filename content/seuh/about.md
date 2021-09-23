@@ -3,7 +3,7 @@ title: "About"
 date: 2021-09-23
 icon: "icons/info-square.svg"
 featured: true
-draft: true
+draft: false
 weight: 1
 heroHeading: 'About'
 heroSubHeading: 'heroSubheading'
