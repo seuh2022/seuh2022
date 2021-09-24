@@ -1,0 +1,7 @@
+baseURL = "https://seuh2022.github.io/seuh2022-website/"
+title = "STAGING --- SEUH 2022"
+
+[params]
+  printEnvironment=true
+  environment="staging"
+  productionSite="https://www.seuh.org/seuh2022/"

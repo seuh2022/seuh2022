@@ -22,7 +22,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify --baseURL=https://seuh2022.github.io/seuh2022-website/
+        run: hugo --minify -e staging
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
