@@ -14,3 +14,5 @@ build_production:
 	hugo --minify
 build_staging:
 	hugo --minify -e staging
+update_theme:
+	git submodule update --init --recursive
