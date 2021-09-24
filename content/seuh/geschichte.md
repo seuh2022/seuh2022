@@ -7,7 +7,7 @@ draft: false
 weight: 2
 heroHeading: 'Geschichte'
 heroSubHeading: 'zur Geschichte der SEUH'
-heroBackground: 'images/piero-nigro-tiXfq1WHBGU-unsplash.jpg'
+heroBackground: 'images/unsplash/piero-nigro-tiXfq1WHBGU-unsplash.jpg'
 ---
 
 Die Tagungsreihe findet seit 1992 überwiegend alle zwei Jahre parallel

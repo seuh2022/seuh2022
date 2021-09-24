@@ -7,7 +7,7 @@ draft: false
 weight: 1
 heroHeading: 'About'
 heroSubHeading: 'Tagungsreihe SEUH'
-heroBackground: 'images/piero-nigro-tiXfq1WHBGU-unsplash.jpg'
+heroBackground: 'images/unsplash/piero-nigro-tiXfq1WHBGU-unsplash.jpg'
 ---
 
 Die [Tagungsreihe SEUH](https://seuh.org/) ist ein Forum zum Austausch über die  Software Engineering Ausbildung.

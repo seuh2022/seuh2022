@@ -1,5 +1,5 @@
 ---
-title: "Index"
+title: "Programm"
 date: 2021-09-24T02:40:26+02:00
 draft: false
 heroHeading: 'Programm'
