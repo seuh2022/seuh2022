@@ -8,6 +8,6 @@ buttonLink: pdf/2022-SEUH-CfP.pdf
 
 Angenommene und präsentierte Beiträge werden in der SEUH-Reihe online über die ["GI-Edition Lecture Notes in Informatics (LNI)"](https://gi.de/service/publikationen/lni) veröffentlicht.
 
-Die Vorlage für Autor:innen der LNI können über die [GI-Seite heruntergeladen werden](https://gi.de/service/publikationen/lni), hier ist ein [direkter Link zu der LaTeX document class auf CTAN](https://www.ctan.org/pkg/lni). Bitte verwenden Sie das LaTeX-Format, damit der Tagungsband einheitlich wird.
+Beiträge müssen im [LNI-Format für LaTex](https://gi.de/lni) in elektronischer Form eingereicht werden. Die Vorlage kann hier: [https://www.ctan.org/pkg/lni](https://www.ctan.org/pkg/lni) heruntergeladen werden. Die Beiträge müssen anonymisiert sein, und können auf Deutsch oder Englisch verfasst werden, als Konferenzsprache ist für die Präsentationen und Diskussion Deutsch vorgesehen.
 
 Die Einreichung erfolgt als [PDF über EasyChair](https://easychair.org/conferences/?conf=seuh2022).
