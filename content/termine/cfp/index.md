@@ -6,7 +6,7 @@ featured: true
 weight: 2
 layout: 'cfp'
 heroHeading: 'Call For Papers'
-heroSubHeading: 'Nachhaltigkeit und Ethik
+heroSubHeading: 'SEUH 2022: Nachhaltigkeit und Ethik
 in der Software Engineering Ausbildung und
 Lehren und Lernen nach der Pandemie'
 heroBackground: 'images/htw.png'
