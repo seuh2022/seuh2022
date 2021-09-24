@@ -6,9 +6,11 @@ weight: 1
 heroHeading: 'Übersicht'
 heroSubHeading: ''
 heroBackground: 'images/htw.png'
+icon: "icons/calendar3.svg"
 ---
-|                   |              |                             |
-|------------------:|:-------------|:----------------------------|
-|  15. Oktober 2021 | &nbsp;&nbsp; | Einreichung von Beiträgen   |
-|  1. Dezember 2021 |              | Nachricht über die Annahme  |
-| 31. Dezember 2021 |              | Einreichung der Endbeiträge |
+|                      |              |                             |
+|---------------------:|:-------------|:----------------------------|
+|     15. Oktober 2021 | &nbsp;&nbsp; | Einreichung von Beiträgen   |
+|     1. Dezember 2021 |              | Nachricht über die Annahme  |
+|    31. Dezember 2021 |              | Einreichung der Endbeiträge |
+| 24./25. Februar 2022 |              | SEUH                        |

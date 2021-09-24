@@ -10,6 +10,7 @@ heroSubHeading: 'Nachhaltigkeit und Ethik
 in der Software Engineering Ausbildung und
 Lehren und Lernen nach der Pandemie'
 heroBackground: 'images/htw.png'
+icon: "icons/pencil-square.svg"
 ---
 
 Einreichungsfrist für Beiträge: 15.Oktober 2021
