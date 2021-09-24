@@ -8,4 +8,4 @@ heroBackground: 'images/unsplash/claudio-schwarz-WKWcvKj1uko-unsplash.jpg'
 layout: 'photocredit'
 ---
 
-Die meisten Fotos auf dieser Seite sind von unsplash:
+Quellen der verwendeten Fotos:

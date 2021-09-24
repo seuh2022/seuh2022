@@ -13,6 +13,32 @@
     </div>
   </div>
 </div>
+{{ $template := . }}
+{{if .Site.Data.photocredit }}
+<div class="container pb-6 pt-6 pb-md-10 pt-md-10">
+  <div class="row">
+    {{ range .Site.Data.photocredit }}
+    <div class="col-12 col-md-6 mb-2 ">{{ partial "photo" . }}</div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
+
+{{if .Site.Data.contact.hours }}
+<h4 class="mt-4">Business Hours</h4>
+<table class="table table-sm opening-hours-table">
+  {{ range .Site.Data.contact.hours }}
+  <tr>
+    <td class="day font-weight-bold">{{ .day }}</td>
+    <td class="opens">{{ .open }}</td>
+    <td>-</td>
+    <td class="closes">{{ .close }}</td>
+  </tr>
+  {{ end }}
+</table>
+{{ end }}
+
+
 {{ end }}
 
 {{ define "footer_js" }}

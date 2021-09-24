@@ -1,0 +1,12 @@
+<div class="work work-summary">
+
+
+  {{ if .preview }}
+  <div class="work-image">
+    <a href="{{ .url}}"><img src="{{ site.BaseURL }}{{ .preview }}" alt = "foto"/></a>
+  </div>
+  {{ end }}
+    <p >
+      {{ .credit | safeHTML }}
+    </p>
+</div>

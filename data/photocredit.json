@@ -1,15 +1,9 @@
 [
     {
-        "link": "images/adam-vradenburg-TK5I5L5JGxY-unsplash.jpg",
-        "preview": "adam-vradenburg-TK5I5L5JGxY-unsplash-preview.jpg",
+        "link": "images/unsplash/adam-vradenburg-TK5I5L5JGxY-unsplash.jpg",
+        "preview": "images/unsplash/adam-vradenburg-TK5I5L5JGxY-unsplash-preview.jpg",
         "url": "https://unsplash.com/photos/TK5I5L5JGxY",
         "credit": "Photo by <a href='https://unsplash.com/@vradenburg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Adam Vradenburg</a> on <a href='https://unsplash.com/s/photos/berlin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>"
-    },
-    {
-
-        "link": "images/unsplash/piero-nigro-tiXfq1WHBGU-unsplash.jpg",
-        "preview": "images/unsplash/piero-nigro-tiXfq1WHBGU-unsplash-preview.jpg",
-        "credit": "Photo by <a href='https://unsplash.com/@pieronigro?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Piero Nigro</a> on <a href='https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>"
     },
     {
 
@@ -17,5 +11,22 @@
         "preview": "images/unsplash/claudio-schwarz-WKWcvKj1uko-unsplash-preview.jpg",
         "url": "https://unsplash.com/photos/WKWcvKj1uko",
         "credit": "Photo by <a href='https://unsplash.com/@purzlbaum?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Claudio Schwarz</a> on <a href='https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>"
+      },
+      {
+
+          "link": "images/unsplash/piero-nigro-tiXfq1WHBGU-unsplash.jpg",
+          "preview": "images/unsplash/piero-nigro-tiXfq1WHBGU-unsplash-preview.jpg",
+          "url": "https://unsplash.com/photos/tiXfq1WHBGU",
+          "credit": "Photo by <a href='https://unsplash.com/@pieronigro?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Piero Nigro</a> on <a href='https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>"
+      },
+
+    {
+        "link": "images/htw.png",
+        "preview": "images/htw.png",
+        "url": "https://nikolas-fahlbusch.de/",
+        "credit": "Photo by Nikolas Fahlbusch, HTW Berlin"
       }
+
+
+
 ]
