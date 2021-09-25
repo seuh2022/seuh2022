@@ -12,22 +12,27 @@ This is the source code for the [SEUH 2022 Website.](https://seuh.org/seuh2022/)
 - Deployment Repo: [https://webgit.k8s.sqa.ddnss.org](https://webgit.k8s.sqa.ddnss.org)
     - all tags "v*" will be deployed to the site as described in [.drone.yml](.drone.yml)
 
+## Editing and Releasing from the Github Website
+
+- all content is contained in markdown files in the [content folder](tree/master/content) - find the matching page in the hierarchy and edit the content via the webpage
+- [draft and create a new release](https://github.com/seuh2022/seuh2022/releases/new) - create a new tag on the go, it has to start with a "v", e.g. "v1.1" to be deployed.
+
 ## Editing and Development:
 
 This website was built with the static site generator [Hugo](https://gohugo.io/).
 
 Install Hugo and clone this repo:
 
-    git clone --recurse-submodules git@github.com:seuh2022/seuh2022-website.git
+    git clone --recurse-submodules git@github.com:seuh2022/seuh2022.git
 
 cd and start the server with:
-    cd seuh2022-website
+
+    cd seuh2022
     hugo -D -p 1313 server
 
-And then view the generated site here:  http://localhost:1313/seuh2022
+And then view the generated site:  [http://localhost:1313/seuh2022](http://localhost:1313/seuh2022)
 
-Have a look at the makefile for useful commands.
-
+Have a look at the makefile for more useful commands.
 
 ## Structure
 
