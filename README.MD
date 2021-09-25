@@ -2,9 +2,19 @@
 
 This is the source code for the [SEUH 2022 Website.](https://seuh.org/seuh2022/)
 
-This website was built with the static site generator [Hugo](https://gohugo.io/).
+## Repos
 
-## Development:
+- Development Repo: [https://github.com/seuh2022](https://github.com/seuh2022)
+    - all pushes to master will be deployed to the [Staging Environment](https://seuh2022.github.io/seuh2022)
+    - Status: [![Deploy Staging](https://github.com/seuh2022/seuh2022/actions/workflows/deploy-staging.yml/badge.svg)](https://github.com/seuh2022/seuh2022/actions/workflows/deploy-staging.yml)
+    - all tags starting with v* will be pushed to the deployment repository:
+
+- Deployment Repo: [https://webgit.k8s.sqa.ddnss.org](https://webgit.k8s.sqa.ddnss.org)
+    - all tags "v*" will be deployed to the site as described in [.drone.yml](.drone.yml)
+
+## Editing and Development:
+
+This website was built with the static site generator [Hugo](https://gohugo.io/).
 
 Install Hugo and clone this repo:
 
