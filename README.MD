@@ -5,17 +5,20 @@ This is the source code for the [SEUH 2022 Website.](https://seuh.org/seuh2022/)
 ## Repos
 
 - Development Repo: [https://github.com/seuh2022](https://github.com/seuh2022)
-    - all pushes to master will be deployed to the [Staging Environment](https://seuh2022.github.io/seuh2022)
+    - all pushes to master will be deployed to the [Staging Environment](https://seuh2022.github.io/seuh2022) via Github Actions.
     - Status: [![Deploy Staging](https://github.com/seuh2022/seuh2022/actions/workflows/deploy-staging.yml/badge.svg)](https://github.com/seuh2022/seuh2022/actions/workflows/deploy-staging.yml)
     - all releases will be pushed to the deployment repository:
 
-- Deployment Repo: [https://webgit.k8s.sqa.ddnss.org](https://webgit.k8s.sqa.ddnss.org)
+- Deployment Repo: [https://webgit.k8s.sqa.ddnss.org/barnekleinen/seuh2022](https://webgit.k8s.sqa.ddnss.org/barnekleinen/seuh2022)
+- Deployment CI: [https://drone.k8s.sqa.ddnss.org/barnekleinen/seuh2022](https://drone.k8s.sqa.ddnss.org/barnekleinen/seuh2022)
+    - currently still on test server:  [https://drone.k8s.sqa.ddnss.org/snowball/hugo-test](https://drone.k8s.sqa.ddnss.org/snowball/hugo-test)
     - all tags "v*" will be deployed to the site as defined in [.drone.yml](.drone.yml)
-    - Test Server: ![Build status](https://drone.k8s.sqa.ddnss.org/api/badges/snowball/hugo-test/status.svg)
-    - New Server: ![Build status](https://drone.k8s.sqa.ddnss.org/api/badges/barnekleinen/seuh2022/status.svg)
+    - Test Server: ![Deploy Production](https://drone.k8s.sqa.ddnss.org/api/badges/snowball/hugo-test/status.svg)
+    - New Server: ![Deploy Production](https://drone.k8s.sqa.ddnss.org/api/badges/barnekleinen/seuh2022/status.svg)
+
 ## Editing and Releasing from the Github Website
 
-- all content is consists in markdown files in the [content folder](tree/master/content) - find the matching page in the hierarchy and edit the content via the webpage
+- all content is in markdown files in the [content folder](content) - find the matching page in the hierarchy and edit the content via the webpage
 - [draft and create a new release](https://github.com/seuh2022/seuh2022/releases/new) - create a new tag on the go, it has to start with a "v", e.g. "v1.1" to be deployed.
 
 ## Editing and Development:
@@ -42,22 +45,18 @@ Have a look at the makefile for more useful commands.
 | - About + Sponsoren | - Programm    | - CFP          | - Maillingliste |
 | - Geschichte        | - Tagungsband | - Registration | - Local Orga    |
 
-## Deployment Pipeline
-
-- [Staging Environment](https://seuh2022.github.io/seuh2022)
-
 ## Credits
 
 ### Icons
-The free icons are from B[ootstrap-Icons](https://icons.getbootstrap.com/).
+
+The icons are  [Bootstrap-Icons](https://icons.getbootstrap.com/).
 
 ### Theme
 
-The SEUH 2022 Website is based on the
+The SEUH 2022 Website is based on the [Hero Hugo Theme](https://themes.gohugo.io/themes/hugo-hero-theme/), [GitHub](https://github.com/zerostaticthemes/hugo-hero-theme),
+[SEUH 2022 Fork](https://github.com/seuh2022/hugo-hero-theme).
 
-[Hero Hugo Theme](https://themes.gohugo.io/themes/hugo-hero-theme/), on GitHub:
-[zerostaticthemes/hugo-hero-theme: A multi-page Hugo theme with fullscreen hero images and fullwidth sections.](https://github.com/zerostaticthemes/hugo-hero-theme)
 
 ### Photos
 
-see the[ Photo credits site](https://www.seuh.org/seuh2022/about/).
+see the [Photo credits site](https://www.seuh.org/seuh2022/about/).

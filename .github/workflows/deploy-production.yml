@@ -26,7 +26,7 @@ jobs:
         run: |
           git push https://${{ secrets.P_USER }}:${{ secrets.P_PASSWD }}@${{ secrets.P_URL }} master ${RELEASE_VERSION}
 # needs the following secrets in repo:
-# gh secret set P_USER
+# gh secret set P_USER   -b <value> -R seuh2022/seuh2022
 # gh secret set P_PASSWD
 # gh secret set P_URL
 # gh secret set P_URL_HUGO_TEST
