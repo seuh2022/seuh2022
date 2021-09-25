@@ -21,4 +21,12 @@ jobs:
         run: echo "---- about to deploy tag ${RELEASE_VERSION}"
       - name: Push to Production Repo
         run: |
+          git push https://${{ secrets.P_USER }}:${{ secrets.P_PASSWD }}@${{ secrets.P_URL_HUGO_TEST }} master ${RELEASE_VERSION}
+      - name: Push to new Production Repo
+        run: |
           git push https://${{ secrets.P_USER }}:${{ secrets.P_PASSWD }}@${{ secrets.P_URL }} master ${RELEASE_VERSION}
+# needs the following secrets in repo:
+# gh secret set P_USER
+# gh secret set P_PASSWD
+# gh secret set P_URL
+# gh secret set P_URL_HUGO_TEST
