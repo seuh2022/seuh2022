@@ -7,21 +7,22 @@ This is the source code for the [SEUH 2022 Website.](https://seuh.org/seuh2022/)
 - Development Repo: [https://github.com/seuh2022](https://github.com/seuh2022)
     - all pushes to master will be deployed to the [Staging Environment](https://seuh2022.github.io/seuh2022)
     - Status: [![Deploy Staging](https://github.com/seuh2022/seuh2022/actions/workflows/deploy-staging.yml/badge.svg)](https://github.com/seuh2022/seuh2022/actions/workflows/deploy-staging.yml)
-    - all tags starting with v* will be pushed to the deployment repository:
+    - all releases will be pushed to the deployment repository:
 
 - Deployment Repo: [https://webgit.k8s.sqa.ddnss.org](https://webgit.k8s.sqa.ddnss.org)
-    - all tags "v*" will be deployed to the site as described in [.drone.yml](.drone.yml)
-
+    - all tags "v*" will be deployed to the site as defined in [.drone.yml](.drone.yml)
+    - Test Server: ![Build status](https://drone.k8s.sqa.ddnss.org/api/badges/snowball/hugo-test/status.svg)
+    - New Server: ![Build status](https://drone.k8s.sqa.ddnss.org/api/badges/barnekleinen/seuh2022/status.svg)
 ## Editing and Releasing from the Github Website
 
-- all content is contained in markdown files in the [content folder](tree/master/content) - find the matching page in the hierarchy and edit the content via the webpage
+- all content is consists in markdown files in the [content folder](tree/master/content) - find the matching page in the hierarchy and edit the content via the webpage
 - [draft and create a new release](https://github.com/seuh2022/seuh2022/releases/new) - create a new tag on the go, it has to start with a "v", e.g. "v1.1" to be deployed.
 
 ## Editing and Development:
 
 This website was built with the static site generator [Hugo](https://gohugo.io/).
 
-Install Hugo and clone this repo:
+[Install Hugo](https://gohugo.io/getting-started/installing) and clone this repo:
 
     git clone --recurse-submodules git@github.com:seuh2022/seuh2022.git
 
