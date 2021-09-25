@@ -16,3 +16,5 @@ build_staging:
 	hugo --minify -e staging
 update_theme:
 	git submodule update --init --recursive
+deploy:
+	git push production master
