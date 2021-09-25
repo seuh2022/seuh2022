@@ -28,7 +28,7 @@ Have a look at the makefile for useful commands.
 
 ## Deployment Pipeline
 
-- [Staging Environment](https://seuh2022.github.io/seuh2022-website)
+- [Staging Environment](https://seuh2022.github.io/seuh2022)
 
 
 ## Credits
