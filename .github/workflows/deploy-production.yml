@@ -1,0 +1,24 @@
+name: Deploy Production
+on:
+  push:
+    tags:
+      - 'v*'
+#on:
+#  release:
+#    types: [published]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0 # needs to be complete for later push
+          ref: master
+      - name: Set env
+        run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
+      - name: echo tag
+        run: echo "---- about to deploy tag ${RELEASE_VERSION}"
+      - name: Push to Production Repo
+        run: |
+          git push https://${{ secrets.P_USER }}:${{ secrets.P_PASSWD }}@${{ secrets.P_URL }} master ${RELEASE_VERSION}

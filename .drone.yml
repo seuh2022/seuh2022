@@ -1,8 +1,32 @@
 kind: pipeline
 type: kubernetes
-name: hugoweb
+name: Hugo Only
 
 steps:
+
+  - name: submodules
+    image: bitnami/git:latest
+    commands:
+      - git submodule update --init --recursive
+
+  - name: hugo
+    image: plugins/hugo
+    settings:
+      validate: true
+      hugo_version: 0.88.1
+      extended: true
+
+trigger:
+  branch:
+  - master
+
+---
+kind: pipeline
+type: kubernetes
+name: Deploy
+
+steps:
+
   - name: submodules
     image: bitnami/git:latest
     commands:
@@ -29,3 +53,7 @@ steps:
       secrets: [rsync_key]
       key:
         from_secret: rsync_key
+
+trigger:
+  ref:
+    - refs/tags/v*
