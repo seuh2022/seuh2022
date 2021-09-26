@@ -19,9 +19,11 @@ update_theme:
 deploy:
 	git push production master
 pages:
-	open https://webgit.k8s.sqa.ddnss.org/snowball/hugo-test
-	open https://drone.k8s.sqa.ddnss.org/snowball/hugo-test/
-  open https://github.com/seuh2022/seuh2022-website
+	open "https://webgit.k8s.sqa.ddnss.org/barnekleinen/seuh2022"
+	open "https://drone.k8s.sqa.ddnss.org/barnekleinen/seuh2022"
+pipeline:
+	open https://github.com/seuh2022/seuh2022
+	open https://seuh2022.github.io/seuh2022
 	open https://seuh.org/seuh2022
 # make check f=gh-tag.yml
 check:
