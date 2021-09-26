@@ -4,6 +4,7 @@ weight: 1
 background: 'images/htw.png'
 button: 'Zum Call For Papers'
 buttonLink: 'termine/cfp/'
+layout: 
 ---
 Nachhaltigkeit und Ethik
 in der Software Engineering Ausbildung und

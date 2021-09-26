@@ -51,3 +51,7 @@
   <script type="text/javascript" src="{{ ($servicesJS | minify | fingerprint).RelPermalink }}"></script>
   {{ end }}
 {{ end }}
+
+{{ define "template" }}
+  {{ partial "show-template" (dict "Which" .Kind "Template" "layouts/_default/photocredit.html") }}
+{{ end }}

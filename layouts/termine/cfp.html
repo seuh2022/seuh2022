@@ -33,3 +33,7 @@
 </div>
 
 {{ end }}
+
+{{ define "template" }}
+  {{ partial "show-template" (dict "Which" .Kind "Template" "layouts/termine/cfp.html") }}
+{{ end }}

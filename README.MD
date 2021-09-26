@@ -19,7 +19,8 @@ This is the source code for the [SEUH 2022 Website.](https://seuh.org/seuh2022/)
 ## Editing and Releasing from the Github Website
 
 - all content is in markdown files in the [content folder](content) - find the matching page in the hierarchy and edit the content via the webpage
-- [draft and create a new release](https://github.com/seuh2022/seuh2022/releases/new) - create a new tag on the go, it has to start with a "v", e.g. "v1.1" to be deployed.
+- all commits to master trigger a deployment to [Staging](https://seuh2022.github.io/seuh2022)
+- to deploy the production site, [draft and create a new release](https://github.com/seuh2022/seuh2022/releases/new) - tags have to start with "v",  e.g. "v1.1" to be deployed.
 
 ## Editing and Development:
 
