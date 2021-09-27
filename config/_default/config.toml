@@ -19,8 +19,8 @@ theme = "hugo-hero-theme"
     #meta_og_image = ""
     meta_og_description = ""
     meta_twitter_card = "summary"
-    #meta_twitter_site = "@seuh2022"
-    #meta_twitter_creator = "@seuh2022"
+    meta_twitter_site = "@seuh2022"
+    meta_twitter_creator = "@seuh2022"
 
 [[menu.main]]
 	name = "SEUH"
