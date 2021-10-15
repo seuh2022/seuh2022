@@ -3,7 +3,7 @@ title: 'Einreichungen'
 date: 2021-09-23
 weight: 5
 button: 'Call for Papers als PDF'
-buttonLink: pdf/2022-SEUH-CfP.pdf
+buttonLink: pdf/2022-SEUH-CfP-verlaengert.pdf
 ---
 
 Angenommene und präsentierte Beiträge werden in der SEUH-Reihe online über die ["GI-Edition Lecture Notes in Informatics (LNI)"](https://gi.de/service/publikationen/lni) veröffentlicht.
@@ -12,4 +12,5 @@ Beiträge müssen im [LNI-Format für LaTex](https://gi.de/lni) in elektronische
 
 Die Einreichung erfolgt als [PDF über EasyChair](https://easychair.org/conferences/?conf=seuh2022).
 
-Die Einreichungsfrist ist der 15. Oktober 2021.
+Die Einreichungsfrist ist der ~~15.&nbsp;Oktober 2021~~
+verlängert bis 31.&nbsp;Oktober 2021.
