@@ -7,14 +7,14 @@ This is the source code for the [SEUH 2022 Website.](https://seuh.org/seuh2022/)
 - Development Repo: [https://github.com/seuh2022](https://github.com/seuh2022)
     - all pushes to master will be deployed to the [Staging Environment](https://seuh2022.github.io/seuh2022) via Github Actions.
     - Status: [![Deploy Staging](https://github.com/seuh2022/seuh2022/actions/workflows/deploy-staging.yml/badge.svg)](https://github.com/seuh2022/seuh2022/actions/workflows/deploy-staging.yml)
-    - all releases will be pushed to the deployment repository:
+    - all [GitHub releases](https://github.com/seuh2022/seuh2022/releases/) will be pushed to the deployment repository:
 
 - Deployment Repo: [https://webgit.k8s.sqa.ddnss.org/barnekleinen/seuh2022](https://webgit.k8s.sqa.ddnss.org/barnekleinen/seuh2022)
 - Deployment CI: [https://drone.k8s.sqa.ddnss.org/barnekleinen/seuh2022](https://drone.k8s.sqa.ddnss.org/barnekleinen/seuh2022)
-    - currently still on test server:  [https://drone.k8s.sqa.ddnss.org/snowball/hugo-test](https://drone.k8s.sqa.ddnss.org/snowball/hugo-test)
     - all tags "v*" will be deployed to the site as defined in [.drone.yml](.drone.yml)
-    - Test Server: ![Deploy Production](https://drone.k8s.sqa.ddnss.org/api/badges/snowball/hugo-test/status.svg)
-    - New Server: ![Deploy Production](https://drone.k8s.sqa.ddnss.org/api/badges/barnekleinen/seuh2022/status.svg)
+    - New Server: [https://drone.k8s.sqa.ddnss.org/barnekleinen/seuh2022](https://drone.k8s.sqa.ddnss.org/barnekleinen/seuh2022) ![Deploy Production](https://drone.k8s.sqa.ddnss.org/api/badges/barnekleinen/seuh2022/status.svg)
+
+
 
 ## Editing and Releasing from the Github Website
 
