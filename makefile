@@ -1,8 +1,11 @@
+# .PHONY : hugo
+# .RECIPEPREFIX = -
 push:
 	git submodule foreach --recursive 'git push'
 	git push origin master
-hugo:
+open:
 	open http://localhost:1313/seuh2022
+hugo : open
 	hugo -D -p 1313 server
 staging:
 	open http://localhost:1414/seuh2022-website
