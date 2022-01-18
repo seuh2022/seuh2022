@@ -40,10 +40,13 @@ Have a look at the makefile for more useful commands.
 
 ## Structure
 
-| SEUH                | Programm      | Termine        | Kontakt         |
-|:--------------------|:--------------|:---------------|:----------------|
-| - About + Sponsoren | - Programm    | - CFP          | - Maillingliste |
-| - Geschichte        | - Tagungsband | - Registration | - Local Orga    |
+| SEUH                | Programm          | Termine          | Kontakt          |
+|:------------------- |:----------------- |:---------------- |:---------------- |
+| - About + Sponsoren | - Programm        | - CFP            | - Maillingliste  |
+| - Geschichte        | - Tagungsband     | - Registration   | - Local Orga     |
+|                     |                   |                  |                  |
+| /content/seuh      | /content/programm | /content/termine | /content/contact |
+|                     |                   |                  |                  |
 
 ## Credits
 

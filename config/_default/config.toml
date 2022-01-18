@@ -23,9 +23,16 @@ theme = "hugo-hero-theme"
     meta_twitter_creator = "@seuh2022"
 
 [[menu.main]]
+  identifier = "seuh"
 	name = "SEUH"
 	url = "/seuh/"
-    weight = 1
+  weight = 1
+[[menu.main]]
+  parent = "seuh"
+  identifier = "/seuh/sponsors"
+  name = "SEUH"
+  url = "/seuh/sponsors"
+  weight = 1
 
 [[menu.main]]
     name = "Programm"

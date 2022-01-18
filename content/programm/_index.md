@@ -11,7 +11,8 @@ Die SEUH 2022 wird am Donnerstag, 24. und Freitag, 25. Februar stattfinden.
 
 Die Entscheidung, ob die SEUH in Präsenz bzw. als Hybridveranstaltung
 stattfinden kann - oder vollständig im Distanzformat -
- läuft gerade noch - wir werden Ende kommender Woche (KW4)
+läuft gerade noch.
+Wir werden Ende kommender Woche (KW4)
 hier informieren.
 
 [Campus Wilhelminenhof](https://www.htw-berlin.de/campus/campus-wilhelminenhof/)
