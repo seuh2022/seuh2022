@@ -90,7 +90,12 @@ running on <a href=https://seuh2022.github.io/seuh2022/>https://seuh2022.github.
 <div class="row justify-content-start">
 <div class="col-12 col-md-8">
 <div class="service service-single">
-<div class=content><p>Quellen der verwendeten Fotos:</p>
+<div class=content><p>{{ with .Resources.ByType &ldquo;image&rdquo; }}
+{{ range . }}
+{{ .RelPermalink }}
+{{ end }}
+{{ end }}</p>
+<p>Quellen der verwendeten Fotos:</p>
 </div>
 </div>
 </div>
