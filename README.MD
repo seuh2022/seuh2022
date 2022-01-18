@@ -11,16 +11,15 @@ This is the source code for the [SEUH 2022 Website.](https://seuh.org/seuh2022/)
 
 - Deployment Repo: [https://webgit.k8s.sqa.ddnss.org/barnekleinen/seuh2022](https://webgit.k8s.sqa.ddnss.org/barnekleinen/seuh2022)
 - Deployment CI: [https://drone.k8s.sqa.ddnss.org/barnekleinen/seuh2022](https://drone.k8s.sqa.ddnss.org/barnekleinen/seuh2022)
+    - Status: ![Deploy Production](https://drone.k8s.sqa.ddnss.org/api/badges/barnekleinen/seuh2022/status.svg)
+
     - all tags "v*" will be deployed to the site as defined in [.drone.yml](.drone.yml)
-    - New Server: [https://drone.k8s.sqa.ddnss.org/barnekleinen/seuh2022](https://drone.k8s.sqa.ddnss.org/barnekleinen/seuh2022) ![Deploy Production](https://drone.k8s.sqa.ddnss.org/api/badges/barnekleinen/seuh2022/status.svg)
-
-
 
 ## Editing and Releasing from the Github Website
 
 - all content is in markdown files in the [content folder](content) - find the matching page in the hierarchy and edit the content via the webpage
 - all commits to master trigger a deployment to [Staging](https://seuh2022.github.io/seuh2022)
-- to deploy the production site, [draft and create a new release](https://github.com/seuh2022/seuh2022/releases/new) - tags have to start with "v",  e.g. "v1.1" to be deployed.
+- to deploy the production site, [draft and create a new release on github](https://github.com/seuh2022/seuh2022/releases/new) - tags have to start with "v",  e.g. "v1.1" to be deployed.
 
 ## Editing and Development:
 
