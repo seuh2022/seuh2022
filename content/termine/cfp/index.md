@@ -13,5 +13,4 @@ heroBackground: 'images/htw.png'
 icon: "icons/pencil-square.svg"
 ---
 
-Einreichungsfrist für Beiträge: ~~15.Oktober 2021~~
-verlängert bis 31.&nbsp;Oktober 2021
+Einreichungsfrist für Beiträge: 31.&nbsp;Oktober 2021
