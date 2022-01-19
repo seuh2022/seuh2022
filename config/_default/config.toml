@@ -59,4 +59,4 @@ theme = "hugo-hero-theme"
     allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$']
     osEnv = ['(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$']
   [security.funcs]
-    getenv = ['^(GITHUB_REF|DRONE_COMMIT_REF|HUGO_)']
+    getenv = ['^(GITHUB_|DRONE_COMMIT_REF|HUGO_)']

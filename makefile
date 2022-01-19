@@ -3,6 +3,13 @@
 push:
 	git submodule foreach --recursive 'git push'
 	git push origin master
+commit:
+	cd themes/hugo-hero-theme/
+	git add .
+	git commit -m $(message)
+	cd ../..
+	git add .
+	git commit -m $(message)
 open:
 	open http://localhost:1313/seuh2022
 hugo : open
