@@ -17,8 +17,11 @@ steps:
       extended: true
 
 trigger:
-  branch:
-  - master
+  ref:
+    include:
+      - refs/tags/v**
+#  branch:
+#  - master
 
 ---
 kind: pipeline
