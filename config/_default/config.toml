@@ -52,3 +52,11 @@ theme = "hugo-hero-theme"
 #[permalinks]
 #  post = "/:year/:month/:day/:slug/"
 #  pages = "/:filename/"
+
+[security]
+  enableInlineShortcodes = false
+  [security.exec]
+    allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$']
+    osEnv = ['(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$']
+  [security.funcs]
+    getenv = ['^(GITHUB_REF|DRONE_COMMIT_REF|HUGO_)']
