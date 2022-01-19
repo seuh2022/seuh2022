@@ -13,7 +13,7 @@ steps:
     image: plugins/hugo
     settings:
       validate: true
-      hugo_version: 0.88.1
+      hugo_version: 0.92.0
       extended: true
 
 trigger:

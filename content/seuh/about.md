@@ -25,6 +25,6 @@ Zusammenarbeit des [ständigen Organisationskomitees der SEUH](https://www.seuh.
 [lokalen Organisation]({{< ref "/contact" >}}) organisiert.
 
 Mehr zur Geschichte der SEUH finden Sie auf der
-[Webseite der Tagungsreihe](https://www.seuh.org/) [Geschichte](https://www.seuh.org/geschichte/).
+[Webseite der Tagungsreihe](https://www.seuh.org/) / [Geschichte](https://www.seuh.org/geschichte/).
 Dort sind auch
 die meisten [Tagungsbände verfügbar](https://www.seuh.org/tagungsorte-und-baende/).
