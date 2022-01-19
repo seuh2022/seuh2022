@@ -8,11 +8,4 @@ heroBackground: 'images/unsplash/claudio-schwarz-WKWcvKj1uko-unsplash.jpg'
 layout: 'photocredit'
 ---
 
-{{ with .Resources.ByType "image" }}
-{{ range . }}
-{{ .RelPermalink }}
-{{ end }}
-{{ end }}
-
-
-Quellen der verwendeten Fotos:
+## Die verwendeten Fotos mit Quellenangabe:
