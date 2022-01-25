@@ -4,10 +4,7 @@ push:
 	git submodule foreach --recursive 'git push'
 	git push origin master
 commit:
-	cd themes/hugo-hero-theme/
-	git add .
-	git commit -m $(message)
-	cd ../..
+	cd themes/hugo-hero-theme/ ; git add . ; git commit -m $(message)
 	git add .
 	git commit -m $(message)
 open:

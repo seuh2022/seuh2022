@@ -10,4 +10,6 @@ heroBackground: 'images/htw.png'
 icon: "icons/person-check.svg"
 ---
 
-Coming soon!
+Die Registrierung ist eröffnet und über Sched möglich:
+
+[https://seuh2022.sched.com/](https://seuh2022.sched.com/)
