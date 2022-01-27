@@ -33,6 +33,11 @@ pipeline:
 	open https://seuh2022.github.io/seuh2022
 	open https://seuh.org/seuh2022
 # make check f=gh-tag.yml
+check_deployment:
+	open https://github.com/seuh2022/seuh2022
+	open https://github.com/seuh2022/seuh2022/actions
+	open https://drone.k8s.sqa.ddnss.org/barnekleinen/seuh2022
+	open https://seuh.org/seuh2022/programm/
 check:
 	ruby -ryaml -e "puts YAML.load(STDIN.read).inspect" < .github/workflows/$(f)
 actions:
